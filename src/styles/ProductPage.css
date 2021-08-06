@@ -1,0 +1,44 @@
+.body {
+    padding: 10px;
+    text-align: center;
+}
+.body > button {
+    margin-top: 10px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.product__Page > img {
+   margin-bottom: 5px;
+}
+.productpage__Description { 
+    margin-bottom: 10px;
+    text-align: justify;
+    padding: 0px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.productpage__Description > h2 {
+    margin-bottom: 20px;
+    margin: 10px;
+} 
+
+img {
+    margin-top: 20px;
+    max-width: 450px;
+}
+.product__Price > h2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: salmon;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 425px) {
+    .productpage__Description > h2 {font-weight: 500; font-size: 18px; margin-bottom: 15px;}
+    .productpage__Description {margin: 5px;}
+}

@@ -1,0 +1,46 @@
+.footer {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 10px 30px 10px;
+}
+
+.footer__Text > span {
+    font-weight: 500;
+}
+
+.footer > p {
+    font-size: smaller;
+    margin-top: 0px;
+}
+
+h2 {
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+.input__Name, .input__Email {
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+.enviar {
+    padding: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background: lightgray;
+}
+
+@media screen and (max-width: 425px) {
+   h2 {font-size: 22px;margin-bottom: 10px;}
+   .footer__Text > span {font-size: 18px; text-align: center; margin-bottom: 10px;}
+   .footer > p {font-size: 18px; margin-left: 20px; margin-right: 20px; margin-top: 10px;}
+   .input__Name, .input__Email {margin-right: 10px; margin-bottom: 20px;}
+   .footer__Inputs > form {display: flex; flex-direction: column; margin-left: 20px; margin-right: 20px; margin-top: 20px;}
+   .enviar {margin-bottom: 0px;}
+}
